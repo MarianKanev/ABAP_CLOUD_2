@@ -1,4 +1,4 @@
-CLASS zcl_mmk_abapcloud_02 DEFINITION
+CLASS zcl_mmk_abapcloud_01 DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -11,7 +11,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_mmk_abapcloud_02 IMPLEMENTATION.
+CLASS zcl_mmk_abapcloud_01 IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
 
     SELECT FROM I_CountryText FIELDS Country, CountryName, CountryShortName, Language
